@@ -1,0 +1,10 @@
+fastapi~=0.110.2
+uvicorn
+httpx~=0.27.0
+sqlalchemy
+asyncpg
+pytest
+pytest-asyncio
+
+openai~=1.23.2
+pydantic~=2.7.0
