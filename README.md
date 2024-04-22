@@ -4,12 +4,10 @@ A demonstration of a chatbot using React, FastAPI and the OpenAI API
 
 ![Logo](./logo.png)
 
-Steps used to create the React App
+## Usage
 
-```bash
-npx create-react-app ui
-npm install axios
-```
+![screenshot](./screenshot.png)
+
 Steps used to run the React App
 
 ```bash
@@ -25,4 +23,15 @@ python3.11 -m venv .venv
 pip install -r requirements.txt
 export OPENAI_API_KEY=secret_key
 python -m uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+If you browse to `http://localhost:3000` you will see the chatbot in action.
+
+## Other notes
+
+Steps used to create the React App
+
+```bash
+npx create-react-app ui
+npm install axios
 ```
