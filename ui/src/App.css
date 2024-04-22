@@ -52,6 +52,11 @@ body {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  background-color: #f8f9fa;
+  color: black;
+  border: 1px solid #ccc;
 }
 
 .message.user {

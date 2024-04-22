@@ -1,4 +1,4 @@
-# Rat-GPT
+# PyRatGPT
 
 A demonstration of a chatbot using React, FastAPI and the OpenAI API
 
